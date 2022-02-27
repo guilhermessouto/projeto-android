@@ -178,7 +178,7 @@ footer{text-align: center;
         img{width: 350px;}
 }
 
-@media(max-width: 300px){
+@media(max-width: 350px){
         main{width: 420px;}
         header{width: 420px;
                 margin: auto;}
