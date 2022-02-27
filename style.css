@@ -14,21 +14,13 @@
     }
 
 body{background-color: var(--cor0);
-         margin: 0;
-        min-width: 300px;}
-
-main{min-width: 300px;
-        max-width: 1200px;
-        margin: auto;
-        background-color: white;
-        margin-bottom: 15px;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.250);}
+         margin: 0;}
 
 header{background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
         color: white;
         text-shadow: 1px 1px 1px black;
+        width: 1321px;
+        margin: auto;
         height: 150px;
         text-align: center;
         padding: 10px;}
@@ -41,6 +33,8 @@ header p{font-size: large;
         margin-top: 25px;}     
 
 nav{background-image: linear-gradient(var(--cor5), var(--cor6));
+        width: 1321px;
+        margin: auto;
         padding: 10px;}
 
 nav a{text-decoration: none;
@@ -53,6 +47,14 @@ nav a:hover{background-color: var(--cor3);
         color: var(--cor5);
         padding: 5px;
         font-weight: bold;}
+
+main{max-width: 1200px;
+        margin: auto;
+        background-color: white;
+        margin-bottom: 15px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.250);}
 
 article{padding: 15px;}
 
@@ -126,3 +128,73 @@ footer{text-align: center;
         background-color: var(--cor5);
         color: white;
         text-shadow: 1px 1px 1px black;}
+
+@media(max-width: 1100px){
+        main{width: 900px;}
+        header{width: 900px;}
+        nav{width: 900px;}
+        aside{width: 870px;}
+}
+
+@media(max-width: 930px){
+        main{width: 730px;}
+        header{width: 730px;}
+        nav{width: 730px;}
+        aside{width: 700px;}
+        img{width: 600px;}
+}
+
+@media(max-width: 750px){
+        main{width: 550px;}
+        header{width: 600px;}
+        nav{width: 600px;}
+        aside{width: 520px;}
+        img{width: 420px;}
+}
+
+@media(max-width: 620px){
+        main{width: 420px;}
+        header{width: 561px;}
+        nav{width: 561px;}
+        aside{width: 392px;}
+        img{width: 350px;}
+}
+
+@media(max-width: 500px){
+        main{width: 420px;}
+        header{width: 475px;}
+        header p{margin-top: 0;}
+        nav{width: 475px;}
+        aside{width: 390px;}
+        img{width: 350px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
