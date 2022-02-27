@@ -178,7 +178,15 @@ footer{text-align: center;
         img{width: 350px;}
 }
 
-
+@media(max-width: 280px){
+        main{width: 420px;}
+        header{width: 420px;
+                margin: auto;}
+        header p{margin-top: 0;}
+        nav{width: 420px;}
+        aside{width: 390px;}
+        img{width: 350px;}
+}
 
 
 
