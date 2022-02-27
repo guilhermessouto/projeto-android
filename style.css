@@ -130,14 +130,16 @@ footer{text-align: center;
         text-shadow: 1px 1px 1px black;}
 
 @media(max-width: 1100px){
-        main{width: 900px;}
+        main{width: 900px;
+                margin: auto;}
         header{width: 900px;}
         nav{width: 900px;}
         aside{width: 870px;}
 }
 
 @media(max-width: 930px){
-        main{width: 730px;}
+        main{width: 730px;
+                margin: auto;}
         header{width: 730px;}
         nav{width: 730px;}
         aside{width: 700px;}
@@ -145,7 +147,8 @@ footer{text-align: center;
 }
 
 @media(max-width: 750px){
-        main{width: 550px;}
+        main{width: 550px;
+                margin: auto;}
         header{width: 600px;}
         nav{width: 600px;}
         aside{width: 520px;}
@@ -153,7 +156,8 @@ footer{text-align: center;
 }
 
 @media(max-width: 620px){
-        main{width: 420px;}
+        main{width: 420px;
+                margin: auto;}
         header{width: 561px;}
         nav{width: 561px;}
         aside{width: 392px;}
@@ -161,7 +165,8 @@ footer{text-align: center;
 }
 
 @media(max-width: 500px){
-        main{width: 420px;}
+        main{width: 420px;
+                margin: auto;}
         header{width: 475px;}
         header p{margin-top: 0;}
         nav{width: 475px;}
@@ -169,7 +174,14 @@ footer{text-align: center;
         img{width: 350px;}
 }
 
-
+@media(max-width: 280px){
+        main{width: 420px;}
+        header{width: 475px;}
+        header p{margin-top: 0;}
+        nav{width: 475px;}
+        aside{width: 390px;}
+        img{width: 350px;}
+}
 
 
 
